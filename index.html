@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihal's Project – App Portfolio</title>
+    <meta name="description"
+        content="Nihal's portfolio showcasing apps and projects including Shelter Link, Ramadan Reminder, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <h1 class="site-title" id="site-title">NIHALSPROJECT</h1>
+            <nav class="header-nav" id="header-nav">
+                <a href="#" class="nav-link active" data-filter="all">Apps</a>
+                <a href="#" class="nav-link" data-filter="featured">Featured</a>
+            </nav>
+        </div>
+        <!-- Progress Bar -->
+        <div class="progress-section" id="progress-section">
+            <div class="progress-info">
+                <span class="progress-label">Portfolio Progress</span>
+                <span class="progress-percent" id="progress-percent">100%</span>
+            </div>
+            <div class="progress-bar-track" id="progress-bar-track">
+                <div class="progress-bar-fill" id="progress-bar-fill"></div>
+            </div>
+            <span class="progress-status" id="progress-status">✅ Complete</span>
+        </div>
+    </header>
+
+    <!-- ===== MAIN GRID ===== -->
+    <main class="grid-container" id="grid-container">
+
+        <!-- Shelter Link Project Card (Featured/Large) -->
+        <div class="project-card featured-card" id="card-shelter-link" data-category="featured">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #1a1a2e, #16213e);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap shelter-link-logo" id="shelter-link-logo">
+                    <div class="shelter-logo-text">
+                        <span class="shelter-word">SHELTER</span>
+                        <span class="link-word"><span class="l-red">L</span><span class="i-blue">I</span><span
+                                class="n-green">N</span><span class="k-yellow">K</span></span>
+                        <span class="project-word">PROJECT</span>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Shelter Link Project</h3>
+                    <p class="card-desc">Connecting shelters with those in need. A community-driven platform for shelter
+                        access and support.</p>
+                    <div class="card-tags">
+                        <span class="tag tag-featured">Featured</span>
+                        <span class="tag tag-social">Social Impact</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ramadan App Card -->
+        <div class="project-card" id="card-ramadan-app" data-category="all">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #03A9F4, #0277BD);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap ramadan-preview">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="mini-header">🌙 Ramadan Mubarak</div>
+                            <div class="mini-clock">05:23:17</div>
+                            <div class="mini-label">until Iftar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Ramadan Reminder</h3>
+                    <p class="card-desc">Beautiful Iftar, Suhoor & Taraweeh reminder with live countdown.</p>
+                    <div class="card-tags">
+                        <span class="tag tag-app">App</span>
+                        <span class="tag tag-tool">Productivity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Placeholder Project 1 -->
+        <div class="project-card" id="card-project-3" data-category="all">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #FF6B6B, #ee5a24);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap coming-soon-wrap">
+                    <div class="coming-soon-icon">🚀</div>
+                    <div class="coming-soon-text">Coming Soon</div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Project Alpha</h3>
+                    <p class="card-desc">An exciting new project currently in development. Stay tuned!</p>
+                    <div class="card-tags">
+                        <span class="tag tag-wip">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Placeholder Project 2 -->
+        <div class="project-card" id="card-project-4" data-category="all">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap coming-soon-wrap">
+                    <div class="coming-soon-icon">⚡</div>
+                    <div class="coming-soon-text">Coming Soon</div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Project Beta</h3>
+                    <p class="card-desc">Another project on the way. Something creative is brewing!</p>
+                    <div class="card-tags">
+                        <span class="tag tag-wip">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Placeholder Project 3 -->
+        <div class="project-card" id="card-project-5" data-category="all">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #00b894, #00cec9);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap coming-soon-wrap">
+                    <div class="coming-soon-icon">🎨</div>
+                    <div class="coming-soon-text">Coming Soon</div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Project Gamma</h3>
+                    <p class="card-desc">A creative exploration. Design meets functionality.</p>
+                    <div class="card-tags">
+                        <span class="tag tag-wip">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Placeholder Project 4 -->
+        <div class="project-card" id="card-project-6" data-category="all">
+            <div class="card-color-bar" style="background: linear-gradient(135deg, #fdcb6e, #e17055);"></div>
+            <div class="card-body">
+                <div class="card-image-wrap coming-soon-wrap">
+                    <div class="coming-soon-icon">🔥</div>
+                    <div class="coming-soon-text">Coming Soon</div>
+                </div>
+                <div class="card-details">
+                    <h3 class="card-title">Project Delta</h3>
+                    <p class="card-desc">Heat up your workflow with this upcoming utility project.</p>
+                    <div class="card-tags">
+                        <span class="tag tag-wip">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer" id="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">N</span>
+                <span class="footer-name">nihalsproject</span>
+            </div>
+            <p class="footer-copy">&copy; 2026 Nihal. All rights reserved.</p>
+        </div>
+        <!-- Decorative mascot-like element inspired by the screenshot -->
+        <div class="footer-mascot" id="footer-mascot">
+            <svg viewBox="0 0 80 80" width="60" height="60" fill="none">
+                <circle cx="40" cy="40" r="36" fill="#2d3436" opacity="0.15" />
+                <text x="40" y="48" text-anchor="middle" font-size="32" fill="#636e72">✦</text>
+            </svg>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
